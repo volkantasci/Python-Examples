@@ -2,6 +2,7 @@ alfabe = "abcçdefgğhıijklmnoöprsştuüvyz.;' abcçdefgğhıijklmnoöprsştu�
 # Alfabeyi iki kez yazdık çünkü biz bir harf arattığımızda ilk bulduğu index'i baz alarak işlem yapacak.
 # Ancak ben alfabedeki son karakteri istersem 3 fazlası olan karakteri almak isterken hata verecek.
 # Bunun yerine son karakterden sonra başa dönmüş gibi ilerleyecek ve 3 ileriki karakterin index'ini verecek.
+# Alfabeye istediğiniz başka karakterler de ekleyebilirsiniz ancak iki kısıma da eklemeyi unutmayın :)
 
 textInput = input("Metin: ")
 
