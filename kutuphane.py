@@ -20,10 +20,10 @@ def kitapListele(liste:str):
 
 
 def kitapAra(kitapAdi:str):
-	kitap = kitap.lower()
+	kitapAdi = kitap.lower()
 	newList = list()
 	for i in kitaplar:
-		if kitap == i[1]:
+		if kitapAdi == i[1]:
 			newList.append(i)
 	
 	if newList:
